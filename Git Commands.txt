@@ -1,0 +1,265 @@
+User@DESKTOP-89NLQ41 MINGW64 /
+$ cd ~
+
+User@DESKTOP-89NLQ41 MINGW64 ~
+$ source activiate PythonData
+bash: activiate: No such file or directory
+
+User@DESKTOP-89NLQ41 MINGW64 ~
+$ source activate PythonData
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Untitled.ipynb
+ Untitled1.ipynb
+ Videos/
+ anaconda3/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~
+$ cd documents
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents (helpers)
+$ ls
+'Custom Office Templates'/          'My Music'@      Test-Project/       desktop.ini
+'GitHub Commands.txt'               'My Pictures'@  'Untitled Folder'/
+ MONU-VIRT-DATA-PT-07-2022-U-LOLC/  'My Videos'@     Zoom/
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents (helpers)
+$ cd  MONU-VIRT-DATA-PT-07-2022-U-LOLC
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents/MONU-VIRT-DATA-PT-07-2022-U-LOLC (main)
+$ ls
+01_EXCEL/  03_Python/  05_Matplotlib/   07_Project_1/  Test-Project/
+02_VBA/    04_Pandas/  06_Python-APIs/  08_Project_2/
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents/MONU-VIRT-DATA-PT-07-2022-U-LOLC (main)
+$ cd Test-Project
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents/MONU-VIRT-DATA-PT-07-2022-U-LOLC/Test-Project (helpers)
+$ ls
+README.md  helpers.py
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents/MONU-VIRT-DATA-PT-07-2022-U-LOLC/Test-Project (helpers)
+$ git add .
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents/MONU-VIRT-DATA-PT-07-2022-U-LOLC/Test-Project (helpers)
+$ git commit -m first
+[helpers f490f5e] first
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 helpers.py
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents/MONU-VIRT-DATA-PT-07-2022-U-LOLC/Test-Project (helpers)
+$ git push
+fatal: The current branch helpers has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin helpers
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents/MONU-VIRT-DATA-PT-07-2022-U-LOLC/Test-Project (helpers)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents/MONU-VIRT-DATA-PT-07-2022-U-LOLC/Test-Project (main)
+$ ls
+README.md
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents/MONU-VIRT-DATA-PT-07-2022-U-LOLC/Test-Project (main)
+$ git checkout helpers
+Switched to branch 'helpers'
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents/MONU-VIRT-DATA-PT-07-2022-U-LOLC/Test-Project (helpers)
+$ ls
+README.md  helpers.py
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents/MONU-VIRT-DATA-PT-07-2022-U-LOLC/Test-Project (helpers)
+$ git status
+On branch helpers
+nothing to commit, working tree clean
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents/MONU-VIRT-DATA-PT-07-2022-U-LOLC/Test-Project (helpers)
+$ git commit -m "first"
+On branch helpers
+nothing to commit, working tree clean
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents/MONU-VIRT-DATA-PT-07-2022-U-LOLC/Test-Project (helpers)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents/MONU-VIRT-DATA-PT-07-2022-U-LOLC/Test-Project (main)
+$ git add test.txt
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents/MONU-VIRT-DATA-PT-07-2022-U-LOLC/Test-Project (main)
+$ git commit -m "testing file"
+[main b1d5c4d] testing file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test.txt
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents/MONU-VIRT-DATA-PT-07-2022-U-LOLC/Test-Project (main)
+$ git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 330 bytes | 330.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Meesha419/Test-Project.git
+   5c40090..b1d5c4d  main -> main
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents/MONU-VIRT-DATA-PT-07-2022-U-LOLC/Test-Project (main)
+$ git checkout Rasika/branching_exercise
+error: pathspec 'Rasika/branching_exercise' did not match any file(s) known to git
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents/MONU-VIRT-DATA-PT-07-2022-U-LOLC/Test-Project (main)
+$ git checkout Rasika_branching_exercise
+error: pathspec 'Rasika_branching_exercise' did not match any file(s) known to git
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents/MONU-VIRT-DATA-PT-07-2022-U-LOLC/Test-Project (main)
+$ git checkout -b Rasika_branching_exercise
+Switched to a new branch 'Rasika_branching_exercise'
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents/MONU-VIRT-DATA-PT-07-2022-U-LOLC/Test-Project (Rasika_branching_exercise)
+$ ls
+README.md  Rasika.txt  test.txt
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents/MONU-VIRT-DATA-PT-07-2022-U-LOLC/Test-Project (Rasika_branching_exercise)
+$ git add .
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents/MONU-VIRT-DATA-PT-07-2022-U-LOLC/Test-Project (Rasika_branching_exercise)
+$ git status
+On branch Rasika_branching_exercise
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Rasika.txt
+
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents/MONU-VIRT-DATA-PT-07-2022-U-LOLC/Test-Project (Rasika_branching_exercise)
+$ git commit -m "new text file"
+[Rasika_branching_exercise 5c6d604] new text file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Rasika.txt
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents/MONU-VIRT-DATA-PT-07-2022-U-LOLC/Test-Project (Rasika_branching_exercise)
+$ git push origin Rasika_branching_exercise
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 351 bytes | 351.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'Rasika_branching_exercise' on GitHub by visiting:
+remote:      https://github.com/Meesha419/Test-Project/pull/new/Rasika_branching_exercise
+remote:
+To https://github.com/Meesha419/Test-Project.git
+ * [new branch]      Rasika_branching_exercise -> Rasika_branching_exercise
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents/MONU-VIRT-DATA-PT-07-2022-U-LOLC/Test-Project (Rasika_branching_exercise)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents/MONU-VIRT-DATA-PT-07-2022-U-LOLC/Test-Project (main)
+$ git pull
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 357 bytes | 27.00 KiB/s, done.
+From https://github.com/Meesha419/Test-Project
+ * [new branch]      myrna_branching_exercise -> origin/myrna_branching_exercise
+Already up to date.
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents/MONU-VIRT-DATA-PT-07-2022-U-LOLC/Test-Project (main)
+$ ls
+README.md  test.txt
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents/MONU-VIRT-DATA-PT-07-2022-U-LOLC/Test-Project (main)
+$ git pull
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 5 (delta 1), reused 4 (delta 0), pack-reused 0
+Unpacking objects: 100% (5/5), 516 bytes | 19.00 KiB/s, done.
+From https://github.com/Meesha419/Test-Project
+ * [new branch]      Neha_branching_exercise -> origin/Neha_branching_exercise
+ * [new branch]      archana_branching_excercise -> origin/archana_branching_excercise
+Already up to date.
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents/MONU-VIRT-DATA-PT-07-2022-U-LOLC/Test-Project (main)
+$ cd Rasika_branching_exercise
+bash: cd: Rasika_branching_exercise: No such file or directory
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents/MONU-VIRT-DATA-PT-07-2022-U-LOLC/Test-Project (main)
+$ git checkout Rasika_branching_exercise
+Switched to branch 'Rasika_branching_exercise'
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents/MONU-VIRT-DATA-PT-07-2022-U-LOLC/Test-Project (Rasika_branching_exercise)
+$ ls
+'Git Commands.txt'   README.md   Rasika.txt   test.txt
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents/MONU-VIRT-DATA-PT-07-2022-U-LOLC/Test-Project (Rasika_branching_exercise)
+$ gir checkout Neha_branching_exercise
+bash: gir: command not found
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents/MONU-VIRT-DATA-PT-07-2022-U-LOLC/Test-Project (Rasika_branching_exercise)
+$ git checkout Neha_branching_exercise
+Switched to a new branch 'Neha_branching_exercise'
+branch 'Neha_branching_exercise' set up to track 'origin/Neha_branching_exercise'.
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents/MONU-VIRT-DATA-PT-07-2022-U-LOLC/Test-Project (Neha_branching_exercise)
+$ ls
+'Git Commands.txt'   Neha.txt   README.md   test.txt
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents/MONU-VIRT-DATA-PT-07-2022-U-LOLC/Test-Project (Neha_branching_exercise)
+$ git branch -a
+* Neha_branching_exercise
+  Rasika_branching_exercise
+  hello
+  helpers
+  main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/Neha_branching_exercise
+  remotes/origin/Rasika_branching_exercise
+  remotes/origin/archana_branching_excercise
+  remotes/origin/main
+  remotes/origin/myrna_branching_exercise
+(PythonData)
+User@DESKTOP-89NLQ41 MINGW64 ~/documents/MONU-VIRT-DATA-PT-07-2022-U-LOLC/Test-Project (Neha_branching_exercise)
+$
